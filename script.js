@@ -1,31 +1,58 @@
-// Lista de importância do agro
-const importancia = [
-    "Geração de empregos diretos e indiretos",
-    "Produção de alimentos essenciais",
-    "Contribuição significativa para o PIB estadual",
-    "Base para exportações e comércio internacional",
-    "Desenvolvimento de tecnologia agrícola"
-];
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc;
+}
 
-// Exibindo a lista na página
-const lista = document.getElementById("lista-importancia");
-importancia.forEach(item => {
-    const li = document.createElement("li");
-    li.textContent = item;
-    lista.appendChild(li);
-});
+header {
+    background-color: #4e342e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
 
-// Curiosidades
-const curiosidades = [
-    "O Paraná é o maior produtor de soja do Brasil.",
-    "O estado também se destaca na produção de milho e trigo.",
-    "O agronegócio responde por mais de 40% das exportações do Paraná."
-];
+nav {
+    background-color: #795548;
+    text-align: center;
+    padding: 15px;
+}
 
-const btnCuriosidade = document.getElementById("mostrar-curiosidade");
-const pCuriosidade = document.getElementById("curiosidade");
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
 
-btnCuriosidade.addEventListener("click", () => {
-    const randomIndex = Math.floor(Math.random() * curiosidades.length);
-    pCuriosidade.textContent = curiosidades[randomIndex];
-});
+section {
+    padding: 30px;
+}
+
+h2 {
+    color: #4e342e;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+button {
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2e7d32;
+}
+
+footer {
+    background-color: #4e342e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
