@@ -3,38 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Importância do Agro no Paraná</title>
+    <title>Agro Paraná</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>O Agro no Paraná</h1>
-        <p>Por que o agronegócio é fundamental para o estado</p>
+        <h1>Agro Paraná</h1>
+        <p>A força que move o estado</p>
     </header>
 
-    <main>
-        <section id="sobre">
-            <h2>Sobre o Agro</h2>
-            <p>O agronegócio é um dos pilares econômicos do Paraná, responsável por grande parte da produção de alimentos, geração de empregos e exportações do estado.</p>
-        </section>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#importancia">Importância</a>
+        <a href="#culturas">Principais Culturas</a>
+    </nav>
 
-        <section id="importancia">
-            <h2>Importância</h2>
-            <ul id="lista-importancia"></ul>
-        </section>
+    <section id="sobre">
+        <h2>O Agro no Paraná</h2>
+        <p>
+            O Paraná é um dos estados mais importantes do Brasil para o agronegócio.
+            A produção agrícola e pecuária contribui para a economia, gera empregos
+            e abastece mercados nacionais e internacionais.
+        </p>
+    </section>
 
-        <section id="curiosidades">
-            <h2>Curiosidades</h2>
-            <button id="mostrar-curiosidade">Clique para ver uma curiosidade</button>
-            <p id="curiosidade"></p>
-        </section>
-    </main>
+    <section id="importancia">
+        <h2>Importância do Agronegócio</h2>
+        <p>
+            O agronegócio é fundamental para o desenvolvimento econômico do Paraná.
+            Ele gera renda, empregos, exportações e ajuda no crescimento das cidades
+            e do campo.
+        </p>
+
+        <button onclick="mostrarMensagem()">
+            Saiba Mais
+        </button>
+
+        <p id="mensagem"></p>
+    </section>
+
+    <section id="culturas">
+        <h2>Principais Produtos Agrícolas</h2>
+
+        <ul>
+            <li>🌱 Soja</li>
+            <li>🌽 Milho</li>
+            <li>🌾 Trigo</li>
+            <li>☕ Café</li>
+            <li>🐔 Avicultura</li>
+        </ul>
+    </section>
 
     <footer>
-        <p>© 2026 Agro Paraná</p>
+        <p>Site educativo sobre o Agro Paraná - 2026</p>
     </footer>
 
     <script src="script.js"></script>
+
 </body>
 </html>
