@@ -1,4 +1,3 @@
-
 // Lista de importância do agro
 const importancia = [
     "Geração de empregos diretos e indiretos",
